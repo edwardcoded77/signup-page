@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f4ed;
+}
+
+#welcome {
+  text-align: center;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+nav {
+  background-color: darkgreen;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: darkgreen;
+  color: white;
+}
