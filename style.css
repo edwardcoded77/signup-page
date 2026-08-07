@@ -2,9 +2,20 @@ body {
   background-color: #f8f4ed;
 }
 
+
+.flex-container {
+  display: flex;
+  justify-content:space-between;
+  gap: 40px;
+  text-align: center;
+ padding: 1rem 1rem;
+}
+
+
+
 #welcome {
   text-align: center;
-  padding: 4rem 0;
+  padding: 3rem 1rem; 
 }
 
 h1 {
@@ -39,7 +50,6 @@ footer {
   padding: 10px;
   background-color: darkgreen;
 }
-
 footer p {
   color: white;
   margin: 0;
