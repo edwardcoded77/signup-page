@@ -4,6 +4,7 @@ body {
 
 #welcome {
   text-align: center;
+  padding: 4rem 0;
 }
 
 h1 {
@@ -13,10 +14,20 @@ h1 {
 nav {
   background-color: darkgreen;
   padding: 10px;
+  display:flex;
+  justify-content: center;
+   
 }
 
 nav a {
-  color: white;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    transform: translateY(-3px);
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 
 section {
@@ -25,7 +36,11 @@ section {
 
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background-color: darkgreen;
+}
+
+footer p {
   color: white;
+  margin: 0;
 }
