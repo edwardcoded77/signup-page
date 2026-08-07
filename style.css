@@ -3,20 +3,47 @@ body {
 }
 
 
-.flex-container {
-  display: flex;
-  justify-content:space-between;
-  gap: 40px;
-  text-align: center;
- padding: 1rem 1rem;
-}
-
 
 
 #welcome {
   text-align: center;
   padding: 3rem 1rem; 
 }
+
+.flex-container {
+  display: flex;
+  justify-content:space-between;
+  gap: 20px;
+  text-align: center;
+ padding: 1rem 1rem;
+}
+
+.flex-container article {
+  /*background-color: lavender; */
+  /*width: 5px;*/ 
+}
+
+
+#why article {
+  padding: 2rem;
+}
+
+
+/* #field-notes span,
+#field-notes strong,
+#field-notes a {
+  outline: 2px dashed darkorange;
+}
+
+#field-notes div,
+#field-notes p {
+  outline: 2px solid seagreen;
+} */
+
+
+
+
+
 
 h1 {
   color: darkgreen;
