@@ -112,4 +112,50 @@ footer p {
   margin: 0;
 }
 
+/* JOIN SECTION */
+#join {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
 
+#join h2 {
+    margin-bottom: 2rem;
+}
+
+/* FORM */
+#join form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+/* LABEL + INPUT */
+#join label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+/* INPUTS */
+#join input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.9rem 1rem;
+    border: 1px solid #ccd3dc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fafafa;
+}
+
+/* WHEN USER CLICKS AN INPUT */
+#join input:focus {
+    outline: none;
+    border-color: #4a6fa5;
+    box-shadow: 0 0 0 3px rgba(74, 111, 165, 0.15);
+    background-color: white;
+}
