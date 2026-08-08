@@ -54,7 +54,7 @@
       <input id="member-name" name="member-name" type="text" required placeholder="Goke" >
         </label>
 
-      <lable> Email (if you want news)
+      <label> Email (if you want news)
       <input id="member-email" name="member-email" type="email" >
       </label>
 
@@ -62,26 +62,35 @@
       <input id="member-password" name="member-password" type="password" required >
     </label> 
 
-  <!-- section id="field-notes">
+  <section id="field-notes">
   <h2>Field notes: block and inline</h2>
   <p>A paragraph is a block. Inside it, <strong>strong words</strong>,
     <a href="#welcome">links</a>, and <span>plain spans</span> stay in line.</p>
   <div>A div takes the whole row.</div>
   <p>So does a paragraph.</p>
-</section -->
+  </section >
    
     <button>Join the club</button>
 <br></br>
-    <label>Why do you want to join?
+    
+<!-- label>Why do you want to join?
   <textarea id="member-why" name="member-why"></textarea>
+</label -->
+
+<label>
+  Why do you want to join?
+  <textarea
+    id="join-reason"
+    name="join-reason"
+    placeholder="Tell us a little about why you'd like to join..."
+  ></textarea>
 </label>
 
 <label>How did you hear about us?
   <select id="member-source" name="member-source">
   <option>A friend</option>
-  <option>A poster</option>
   <option>During last AGM</option>
-  <option >Just browsing</option>
+  <option>While browsing</option>
 </select>
 </label>
 
