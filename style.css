@@ -8,6 +8,9 @@ body {
     margin: 0;
 }
 
+ 
+
+
 
 /* welcome */
 
@@ -17,7 +20,15 @@ body {
   
 }
 
+#welcome h1 {
+    color:rgb(4, 24, 4);
+    text-shadow: 2px 2px 3px rgba(219, 214, 214, 0.9);
+  }
 
+
+section p {
+  color:rgb(48, 41, 41);
+}
 
 /*  cards */
 .flex-container {
@@ -37,7 +48,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: rgb(4, 14, 8);
   text-decoration: none;
   transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
@@ -59,10 +70,15 @@ article {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 article h3{
     color:antiquewhite;
 }
+
+article p {
+  color: rgb(255, 255, 255); 
+  
+}
+
 
 /* Article hover */
 article:hover {
