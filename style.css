@@ -10,7 +10,7 @@ body {
 }
 
 section p {
-  color:darkgreen;
+  color:rgb(3, 39, 3);
 }
 
 /* welcome */
@@ -22,7 +22,7 @@ section p {
 }
 
 #welcome h1 {
-    color:rgb(4, 31, 4);
+    color:rgb(1, 15, 1);
     text-shadow: 2px 2px 3px rgba(219, 214, 214, 0.9);
      
        
