@@ -191,7 +191,7 @@ section h2 {
 .event-container {
     display: flex;
     justify-content:space-between;
-    gap: 50px;
+    gap: 30px;
     text-align:center;
     padding: 8px;
   }
