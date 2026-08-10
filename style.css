@@ -36,7 +36,7 @@ section a {
 .flex-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 50px;
     text-align: center;
     }
 
@@ -137,7 +137,7 @@ footer p {
   background-color:rgb(240, 240, 233);
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);au
-  box-sizing: border-box;
+ 
 }
 
 #join h2 {
@@ -183,3 +183,19 @@ section h2 {
     box-shadow: 0 0 0 3px rgba(74, 111, 165, 0.15);
     background-color: white;
 }
+
+
+
+/* event-container */
+
+.event-container {
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+    text-align:center;
+    padding: 8px;
+  }
+
+  .event-container p {
+    margin: 0;
+  }
