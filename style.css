@@ -1,4 +1,3 @@
-
 /* Body */
 body {
     background-image: url("ypf-logo.jpg");
@@ -9,9 +8,6 @@ body {
     margin: 0;
 }
 
-section p {
-  color:rgb(3, 39, 3);
-}
 
 /* welcome */
 
@@ -21,16 +17,7 @@ section p {
   
 }
 
-#welcome h1 {
-    color:rgb(1, 15, 1);
-    text-shadow: 2px 2px 3px rgba(219, 214, 214, 0.9);
-     
-       
-}
 
-section a {
-  color:rgb(6, 19, 6);
-}
 
 /*  cards */
 .flex-container {
@@ -50,7 +37,7 @@ nav {
 }
 
 nav a {
-  color: rgb(27, 20, 20);
+  color: white;
   text-decoration: none;
   transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
@@ -72,10 +59,7 @@ article {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-article p {
-  color: rgb(226, 216, 216); 
-  
-}
+
 article h3{
     color:antiquewhite;
 }
