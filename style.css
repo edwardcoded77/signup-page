@@ -1,23 +1,19 @@
+
+/* Body */
 body {
-    background-image: url("pulse.jpg");
+    background-image: url("YPF02-logo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-      
-
-h1 {
-  color: #f5c542;
- }
-
-p {
-    color: rgb(83, 71, 71);
+    margin: 0;
 }
 
-section p{
-  color:white;
+section p {
+  color:darkgreen;
 }
+
+/* welcome */
 
 #welcome {
   text-align: center;
@@ -26,42 +22,62 @@ section p{
 }
 
 #welcome h1 {
-    color: #f5c542;
-    text-shadow: 6px 6px 3px rgba(0, 0, 0, 0.9);
+    color:rgb(4, 31, 4);
+    text-shadow: 2px 2px 3px rgba(219, 214, 214, 0.9);
      
        
 }
 
-
 section a {
-  color:white;
+  color:rgb(6, 19, 6);
 }
 
+/*  cards */
 .flex-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     text-align: center;
+    }
+
+/* Navigation */
+
+nav {
+  padding: 10px;
+  display:flex;
+  justify-content: center;
+   
 }
 
+nav a {
+  color: rgb(27, 20, 20);
+  text-decoration: none;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+    transform: translateY(-3px);
+    text-shadow: 2px 2px 4px rgba(187, 183, 183, 0.5);
+}
 
 
 /* Article */
 article {
     position: relative;
     overflow: hidden;
-    background: #e5e9e7;
-    color: #263c32;
-    border-radius: 40px;
-    padding: 2rem;
-    margin-right: -10px;
-
+    background: rgb(26, 49, 26);
+   border-radius: 20px;
+    padding: 1.8rem;
     transform-style: preserve-3d;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 article p {
-  color: rgb(5, 3, 3);
+  color: rgb(226, 216, 216); 
+  
+}
+article h3{
+    color:antiquewhite;
 }
 
 /* Article hover */
@@ -71,7 +87,7 @@ article:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Flipping image */
+/* image flipping */
 article img {
     position: absolute;
     inset: 0;
@@ -82,7 +98,7 @@ article img {
     opacity: 0;
     transform: rotateY(90deg);
     transform-origin: center;
-    transition: transform 0.1s ease, opacity 0.1s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 /* Show image and flip it */
@@ -92,42 +108,11 @@ article:hover img {
 }
 
 
-/* #field-notes span,
-#field-notes strong,
-#field-notes a {
-  outline: 2px dashed darkorange;
-}
-
-#field-notes div,
-#field-notes p {
-  outline: 2px solid seagreen;
-} */
-
-
-
-/* NAV SECTION */
-
-nav {
-  padding: 10px;
-  display:flex;
-  justify-content: center;
-   
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    transition: transform 0.3s ease;
-}
-
-nav a:hover {
-    transform: translateY(-3px);
-    text-shadow: 2px 2px 4px rgba(187, 183, 183, 0.5);
-}
-
 section {
   margin-bottom: 50px;
 }
+
+/* footer */
 
 footer {
   text-align: center;
@@ -136,19 +121,20 @@ footer {
 }
 
 footer p {
-  color: #eeeeee;
+  color:rgb(27, 20, 20);
   }
 
 
 
 /* JOIN SECTION */
 #join {
-    max-width: 700px;
-    margin: 3rem auto;
-    padding: 2.5rem;
-    background-color: white;
-    border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  width: min(90%, 600px);
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
 }
 
 #join h2 {
@@ -157,7 +143,7 @@ footer p {
 }
 
 section h2 {
-    color: white;
+    color: rgb(27, 20, 20);
 }
 
 /* FORM */
