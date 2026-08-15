@@ -8,6 +8,20 @@ body {
     margin: 0;
 }
 
+
+/* This is for a debug purpose only //
+/* body {
+    background: red !important;
+}
+
+.field-notes {
+    background: yellow !important;
+    border: 3px solid red !important;
+} */
+*/
+
+
+
 /* welcome */
 
 #welcome {
@@ -202,11 +216,11 @@ section h2 {
 };
 
 
-#field-notes {
-    display: none;
-}
 
  
 
-
-
+/* #field-notes {
+    border: 10px solid red;
+    background: yellow;
+    font-size: 30px;
+} */
