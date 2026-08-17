@@ -41,15 +41,9 @@ body {
 
   }
 
-  #welcome a:hover {
-  background-color: seagreen;
-  color: white;
-}
-
-
 
 section p {
-  color:rgb(48, 41, 41);
+  /* color:rgb(48, 41, 41); */
   text-align: center;
 }
 
