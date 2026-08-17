@@ -207,7 +207,7 @@ section h2 {
 }
 
 #member-email:valid {
-  border: 2px solid seagreen;
+  /* border: 2px solid seagreen; */
 }
 
  #member-email:invalid {
@@ -218,8 +218,3 @@ section h2 {
 
  
 
-/* #field-notes {
-    border: 10px solid red;
-    background: yellow;
-    font-size: 30px;
-} */
