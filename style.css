@@ -57,12 +57,29 @@ section p {
     text-align: center;
     }
 
+
+
+/* Parallelogram-shaped cards */
+/* .flex-container article {
+    transform: skewX(-12deg);
+    border-radius: 0;
+}
+
+/* Keep the text and images straight */
+/* .flex-container article h3,
+.flex-container article p,
+.flex-container article img {
+    transform: skewX(12deg); */
+
+
+
+
 /* Navigation */
 
 nav {
   padding: 10px;
   display:flex;
-  justify-content: center;
+  justify-content: flex-end;
    
 }
 
@@ -83,10 +100,13 @@ article {
     position: relative;
     overflow: hidden;
     background: rgb(26, 49, 26);
-   border-radius: 20px;
+    /* border-radius: 20px; */
     padding: 1.8rem;
     transform-style: preserve-3d;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+    transition:
+        transform 0.5s ease,
+        box-shadow 0.3s ease;
 }
 
 article h3{
@@ -96,7 +116,7 @@ article h3{
 article p {
   color: rgb(255, 255, 255); 
   
-}
+} 
 
 
 /* Article hover */
@@ -104,7 +124,20 @@ article:hover {
     z-index: 10;
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    
+
+    /* transform: skewX(-12deg) translateY(-8px); */
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Image preview */
 article img {
