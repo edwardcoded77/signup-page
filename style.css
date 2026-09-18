@@ -74,7 +74,7 @@ section p {
 
 
 
-/* Navigation */
+/* Navigation links */
 
 nav {
   padding: 10px;
@@ -87,15 +87,16 @@ nav a {
   color: rgb(4, 14, 8);
   text-decoration: none;
   transition: transform 0.3s ease, text-shadow 0.3s ease;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 nav a:hover {
-    /* transform: translateY(-3px); */
+    transform: translateY(-2px);
     text-shadow: 2px 2px 6px rgba(187, 183, 183, 0.5);
-    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
-    transform: scale(1.2);
+ 
 }
+
+
 
 
 /* Article */
