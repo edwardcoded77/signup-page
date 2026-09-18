@@ -37,13 +37,11 @@ body {
 #welcome h1 {
    text-shadow: -2px -2px 0 rgb(77, 73, 64) ; 
    text-align:center;
-    /* margin: 0 auto; */
 
   }
 
 
 section p {
-  /* color:rgb(48, 41, 41); */
   text-align: center;
 }
 
@@ -103,10 +101,8 @@ article {
     /* border-radius: 20px; */
     padding: 1.8rem;
     transform-style: preserve-3d;
-    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
-    transition:
-        transform 0.5s ease,
-        box-shadow 0.3s ease;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+
 }
 
 article h3{
@@ -124,19 +120,8 @@ article:hover {
     z-index: 10;
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    
-
-    /* transform: skewX(-12deg) translateY(-8px); */
+  
 }
-
-
-
-
-
-
-
-
-
 
 
 /* Image preview */
@@ -239,9 +224,7 @@ section h2 {
   background-color: lightyellow;
 }
 
-#member-email:valid {
-  /* border: 2px solid seagreen; */
-}
+
 
  #member-email:invalid {
   border: 2px dashed darkorange
