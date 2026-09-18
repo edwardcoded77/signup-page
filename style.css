@@ -26,13 +26,19 @@ body {
 
 #welcome {
   text-align:center;
+
 }
 
 #welcome a {
- text-align:center;
- display: block;
+  text-align:center;
+  display: block;
+  color: rgb(4, 14, 8);
+      
 }
 
+/* #welcome a:hover{
+  text-decoration: underline; 
+} */
 
 #welcome h1 {
    text-shadow: -2px -2px 0 rgb(77, 73, 64) ; 
@@ -43,6 +49,7 @@ body {
 
 section p {
   text-align: center;
+
 }
 
 
@@ -59,36 +66,22 @@ section p {
 
 
 
-/* Parallelogram-shaped cards */
-/* .flex-container article {
-    transform: skewX(-12deg);
-    border-radius: 0;
-}
-
-/* Keep the text and images straight */
-/* .flex-container article h3,
-.flex-container article p,
-.flex-container article img {
-    transform: skewX(12deg); */
-
-
-
-
 /* Navigation links */
-
-nav {
-  padding: 10px;
-  display:flex;
-  justify-content: flex-end;
+   nav {
+      padding: 10px;
+      display:flex;
+      justify-content: flex-end;
+      
    
 }
 
+
 nav a {
-  color: rgb(4, 14, 8);
-  text-decoration: none;
-  transition: transform 0.3s ease, text-shadow 0.3s ease;
-  /* cursor: pointer; */
+      color: rgb(4, 14, 8);
+      text-decoration: none;
+      transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
+
 
 nav a:hover {
     transform: translateY(-2px);
