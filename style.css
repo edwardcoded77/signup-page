@@ -55,16 +55,29 @@ section p {
 
 
 /*  cards */
-.flex-container {
+/* .flex-container {
     display: flex;
     justify-content: center;
     gap: 50px;
     text-align: center;
     cursor: pointer;
+    
+    } */
 
-    }
+ .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    cursor: pointer;
+}
 
 
+.flex-container article {
+    width: 22%;
+    box-sizing: border-box;
+}
 
 /* Navigation links */
    nav {
@@ -95,15 +108,16 @@ nav a:hover {
 
 /* Article */
 article {
+   box-sizing: border-box;
     position: relative;
     overflow: hidden;
     background: rgb(26, 49, 26);
-    /* border-radius: 20px; */
     padding: 1.8rem;
     transform-style: preserve-3d;
     transition: transform 0.5s ease, box-shadow 0.3s ease;
-
 }
+
+
 
 article h3{
     color:antiquewhite;
@@ -176,6 +190,8 @@ footer p {
   
 }
 
+
+
 #join h2 {
     margin-bottom: 2rem;
    }
@@ -232,10 +248,23 @@ section h2 {
 };
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .flex-row {
     flex-direction: column;
   }
-}
+} */
  
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 0 15px;
+  }
 
+  .flex-container article {
+    width: 100%;
+    max-width: 400px;
+   
+  }
+}
